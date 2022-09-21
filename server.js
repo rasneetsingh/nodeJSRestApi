@@ -206,7 +206,7 @@ app.get('/students', (req, res) => {
             }]
     )
 
-app.get('/student1', (req, res) =>{
+app.get('/students/1', (req, res) =>{
 
     res.json({
         "ID": "1",
